@@ -1,0 +1,58 @@
+/***************
+GENERAL
+***************/
+
+body {
+	background-image: url(../img/ricepaper_v3.png);
+	background-repeat: repeat;
+}
+
+h1, h2, h3, p, a, li, button {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+* {
+	text-align: center;
+}
+
+/***************
+HEADER
+***************/
+
+
+/***************
+LISTS
+***************/
+.list {
+	display: block;
+	max-width: 33%;
+	margin: 2% 5% 5%;
+	padding: 1em 2em;
+	border-radius: 5%;
+}
+#to-get {
+	float: left;
+	margin-left: 25%;
+	
+}
+
+#got {
+	float: right;
+	margin-right: 25%;
+}
+
+/***************
+Footer
+***************/
+
+footer {
+	clear: both;
+	position: absolute;
+	bottom: 0;
+	left: 46%;
+}
