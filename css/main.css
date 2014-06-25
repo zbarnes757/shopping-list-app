@@ -31,19 +31,18 @@ LISTS
 .list {
 	display: block;
 	max-width: 33%;
-	margin: 2% 5% 5%;
+	margin: 2% auto;
 	padding: 1em 2em;
 	border-radius: 5%;
 }
-#to-get {
-	float: left;
-	margin-left: 25%;
-	
+
+.got {
+	text-decoration: line-through;
 }
 
-#got {
-	float: right;
-	margin-right: 25%;
+.item {
+	list-style-type: none;
+	padding-top: 5px;
 }
 
 /***************
